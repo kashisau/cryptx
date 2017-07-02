@@ -1,0 +1,21 @@
+{
+  "name": "cryptx",
+  "version": "1.0.0",
+  "description": "A crypto-currency exchange bot.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "babel-node src/index.js"
+  },
+  "author": "Kashi Samaraweera <kashi@kashis.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "request": "^2.81.0",
+    "ws": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
