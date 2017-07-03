@@ -1,5 +1,5 @@
-const CxWorker = require('./cxworker.js');
-const CxPair = require('./cxpair.js');
+import CxWorker from './cxworker.js';
+import CxPair from './cxpair.js';
 
 let ethUsdCxPair = new CxPair('eth', 'usd');
 

@@ -183,4 +183,4 @@ class CxWorker {
 
 }
 
-module.exports = CxWorker;
+export default CxWorker;

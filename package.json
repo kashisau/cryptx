@@ -15,7 +15,10 @@
     "ws": "^3.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.5.2"
+    "awesome-typescript-loader": "^3.2.1",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.2.2",
+    "typescript": "^2.4.1",
+    "webpack": "^3.0.0"
   }
 }
